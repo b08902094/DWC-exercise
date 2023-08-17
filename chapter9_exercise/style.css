@@ -1,0 +1,39 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+  text-decoration: none;
+}
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #ff9a4b;
+}
+.contents {
+  width: 960px;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+}
+.bk {
+  background-color: #eeeeee;
+}
+.content-1 {
+  padding: 10px;
+  background-image: url(img/flow01.png);
+}
+.content-2 {
+  background-image: url(img/flow02.png);
+}
+.content-3 {
+  background-image: url(img/flow03.png);
+}
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #aaaaaa;
+}
